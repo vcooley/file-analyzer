@@ -1,0 +1,30 @@
+{
+  "name": "file-analyzer",
+  "version": "1.0.0",
+  "description": "A file size analyzer built for FCC microservice project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcooley/file-analyzer.git"
+  },
+  "author": "Vince Cooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcooley/file-analyzer/issues"
+  },
+  "homepage": "https://github.com/vcooley/file-analyzer#readme",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-multer": "^0.0.2",
+    "koa-route": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-defaults": "^9.0.0"
+  }
+}
